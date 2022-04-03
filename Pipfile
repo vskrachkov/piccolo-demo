@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.75.1"
+uvicorn = "*"
+piccolo = {version = "==0.72.0", extras = ["postgres"]}
+piccolo-admin = "==0.19.6"
+environs = "==9.5.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
